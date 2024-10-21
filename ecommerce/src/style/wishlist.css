@@ -1,0 +1,192 @@
+.emptywishlist {
+  text-align: center;
+
+  height: 450px;
+  margin-top: 50px;
+}
+.emptywishlist img {
+  height: 300px;
+}
+.emptywishlist button {
+  width: 200px;
+  height: 35px;
+  border-radius: 8px;
+  color: white;
+  margin: 20px 0px 0px 8px;
+  background-color: #007dbc;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.wishpage{
+  display: flex;
+  justify-content: space-around;
+  /* overflow: hidden; */
+}
+.wishpageimg img{
+margin-top: 10px;
+height: 500px;
+width: 500px;
+}
+.wishlist {
+  width: 50%;
+  height: 85vh;
+  overflow-y: scroll;
+  margin: 10px;
+  
+  
+}
+.wishlist::-webkit-scrollbar {
+  display: none; 
+}
+.item-card-wish {
+  width: 600px;
+  box-shadow: 0px 0px 10px gray;
+  height: 300px;
+  margin-top: 10px;
+}
+.item-card-wish button {
+  width: 300px;
+  height: 35px;
+  border-radius: 8px;
+  color: darkgray;
+  color: black;
+  margin: 30px 0px 0px 8px;
+  background-color: #ffa41c;
+  font-weight: 400;
+}
+
+.item-card-wish button:hover{
+  width: 310px;
+  box-shadow: 0px 0px 20px gray;
+}
+
+.cartheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cartheading img {
+  width: 150px;
+  height: 150px;
+}
+.cartheading h1 {
+  font-family: "Playfair";
+}
+
+.productimagewish img {
+  width: 220px;
+  height: 300px;
+  position: relative;
+ 
+}
+.rating {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  background-color: white;
+  
+  left: 5px;
+}
+.rating img {
+  width: 30px;
+  height: 30px;
+}
+
+.cancelitem {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+
+.cancelitem img {
+  width: 30px;
+  height: 30px;
+}
+.item-card-wish {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+}
+.item-card-cart:hover {
+  box-shadow: 0px 0px 40px gray;
+}
+
+ 
+.itemcontentwish {
+  margin-left: 10px;
+}
+.itemcontentwish h2 {
+  font-size: 32px;
+  color: darkslategray;
+  font-family: "Playfair";
+}
+
+.itempricecart {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.itemcontentwish p {
+  width: 70px;
+  transform: skew(15deg, 0);
+  background-color: #ffea28;
+  font-weight: bold;
+}
+.itemcontentcart h4 {
+  font-size: 25px;
+}
+
+.itemcontentwish span{
+  font-size: 16px;
+  font-family: "Playfair";
+  font-weight: 300;
+  color: darkslategray;
+}
+.item-card-cart .rating {
+  display: flex;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.itemcontentwish h4 {
+  font-family: "Playfair";
+  color: #454545;
+  margin-bottom: 8px;
+  font-size: 30px;
+}
+.itemcontentwishh2 {
+  font-family: "Playfair";
+  margin-bottom: 5px;
+}
+
+.productimagecart .rating img {
+  width: 20px;
+  height: 20px;
+}
+
+.cartpage {
+  display: flex;
+}
+
+
+
+.productpricedetail {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  /* background-color: #454545; */
+}
+
+.productpricedetail h4 {
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  font-family: "Playfair";
+}

@@ -1,0 +1,118 @@
+.signin {
+  width: 100%;
+  height: 100vh-80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+video {
+  height: 100vh-80px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.background-sign {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+form {
+  width: 400px;
+  height: 500px;
+  border: 2px solid wheat;
+  border-radius: 8px;
+  background: rgba(44, 44, 44, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(24, 23, 23, 0.603);
+}
+
+form h2 {
+  color: white;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+form h2:hover {
+  color: orangered;
+  border-bottom: 5px solid orangered;
+}
+
+form input {
+  width: 75%;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0;
+  padding: 8px 12px;
+}
+
+form input:hover {
+  background-color: #dadada94;
+}
+
+form button {
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: green;
+  border-color: green;
+  color: aliceblue;
+}
+.link {
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+}
+.errormsg h3 {
+  color: red;
+}
+.link h4 {
+  color: white;
+  font-size: 20px;
+}
+
+.errormsg {
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: lightcoral;
+  text-align: center;
+  /* padding: 10px; */
+}
+.link a {
+  color: orangered;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: blue;
+}
+
+.successmsg {
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  background-color: lightgreen;
+  border-radius: 50px;
+  /* padding: 10px; */
+}
+.successmsg h3 {
+  color: green;
+}

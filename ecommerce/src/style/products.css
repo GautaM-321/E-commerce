@@ -1,0 +1,131 @@
+.allproducts {
+  display: flex;
+
+  flex-wrap: wrap;
+  width: 1400px;
+  margin: 10px;
+}
+.item-card {
+  width: 230px;
+  height: 350px;
+  box-shadow: 0 0 10px gray;
+  margin: 10px 25px 10px 25px;
+  border-radius: 8px;
+}
+
+.item-card:hover {
+  box-shadow: 0 0 20px gray;
+}
+.productimage {
+  position: relative;
+}
+
+.productimage img {
+  width: 230px;
+  height: 200px;
+  margin-top: 0px;
+}
+
+.item-card button {
+  width: 200px;
+  height: 35px;
+  border-radius: 8px;
+  color: darkgray;
+  color: white;
+  margin: 8px 0px 0px 8px;
+  background-color: #007dbc;
+  font-weight: 400;
+}
+.item-card .rating img {
+  width: 20px;
+  height: 20px;
+}
+.wishlogo {
+  display: flex;
+  justify-content: space-between;
+}
+.wishlogo img {
+  height: 25px;
+  width: 25px;
+}
+.itemcontent {
+  margin-left: 5px;
+}
+.itemcontent img {
+  height: 25px;
+  width: 25px;
+}
+
+.item-card button:hover {
+  box-shadow: 0 0 20px gray;
+}
+
+#newtag {
+  width: fit-content;
+  height: 20px;
+  background-color: #02c18d;
+  transform: skew(18deg, 0);
+  padding-right: 10px;
+  padding-left: 5px;
+  margin-left: 2px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: black;
+  font-size: 14px;
+}
+
+.item-card .rating {
+  width: 45px;
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  text-align: center;
+}
+
+
+.itemcontent p {
+  width: 70px;
+  transform: skew(15deg, 0);
+  background-color: #ffea28;
+  font-weight: bold;
+}
+.videosection video {
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.productspage {
+  display: flex;
+}
+
+.filtersection {
+  width: 220px;
+  height: 350px;
+  box-shadow: 0 0 20px gray;
+  margin: -50px 0px 0px 10px;
+}
+
+.filtersection img{
+  height: 25px;
+  width: 25px;
+  
+}
+.filtersection button{
+  padding: 10px;
+  background-color:#007DBC;
+  border-radius: 8px;
+  color: white;
+  margin:10px;
+
+}
+.filterheading{
+  height: 30px;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

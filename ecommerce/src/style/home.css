@@ -1,0 +1,42 @@
+.All-Categories {
+  background-color: #e9e8e8;
+  padding: 50px;
+}
+
+.All-Categories img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: rgba(44, 44, 44, 0.25);
+  box-shadow: 0 8px 8px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(24, 23, 23, 0.603);
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.upper-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lower-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.homeproduct {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px gray;
+  color: gray;
+}
+
+.homeproduct:hover {
+  color: black;
+}

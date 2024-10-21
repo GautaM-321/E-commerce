@@ -1,0 +1,176 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--font-alkatra);
+  background-color: #007dbc;
+  z-index: 5;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar input {
+  width: 360px;
+  height: 35px;
+  border-radius: 8px;
+  margin: 15px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.navbar img {
+  height: 30px;
+  width: 30px;
+}
+
+.websitelogo h1 {
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: skew(-18deg, 0);
+}
+.webhome{
+  height: 80px;
+  width:40px ;
+}
+.webhome p{
+  margin-top: 15px;
+}
+.person-logo{
+  height: 80px;
+  width:40px ;
+}
+.person-logo p{
+  margin-top: 15px;
+}
+.webCart{
+  height: 80px;
+  width:40px ;
+}
+.webCart p{
+  margin-top: 15px;
+}
+.webwishlist{
+  height: 80px;
+  width:40px ;
+  position: relative;
+}
+.webwishlist p{
+  margin-top: 15px;
+}
+.webhome h5 {
+  color: white;
+  font-weight: 100;
+}
+
+.webCart h5 {
+  color: white;
+  font-weight: 100;
+}
+
+.webwishlist h5 {
+  color: white;
+  font-weight: 100;
+}
+
+.userinfo {
+  display: none;
+  height: fit-content;
+  position: absolute;
+  width: 120px;
+  color: white;
+  border-radius: 8px;
+  background-color: #00425a;
+  top: 67px;
+  text-align: center;
+  right: 290px;
+}
+.userinfo h5 {
+  margin: 10px 0px 10px 0px;
+}
+.userinfo button {
+  background-color: #00425a;
+  width: 110px;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.person-logo:hover .userinfo {
+  display: inline-block;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-logo {
+  display: flex;
+  text-align: center;
+  width: 190px;
+  position: relative;
+}
+.menu-logo a {
+  position: absolute;
+  right: 72px;
+  top: 4px;
+}
+.inccart {
+  
+  text-align: right;
+
+}
+.incwish {
+  text-align: right;
+}
+
+.person-logo h5 {
+  color: white;
+  font-weight: 100;
+}
+
+.search {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.search img {
+  height: 25px;
+  width: 25px;
+  border-radius: 8px;
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+.userdiv p button:hover {
+  background-color: #007dbc;
+}
+
+.inccart
+{
+  height: 0px;
+
+  width: 38px;
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  right: 5;
+  color: white;
+  background-color: #00425a;
+
+}
+.incwish{
+  height: 0px;
+
+  width: 38px;
+  position: absolute;
+  top: 10px;
+  font-size: 20px;
+  right: 5;
+  color: white;
+  background-color: #00425a;
+}

@@ -1,0 +1,36 @@
+.successvideo{
+    align-items: center;
+    text-align: center;
+    /* position: relative; */
+
+}
+.successvideo img{
+    
+    height: 400px;
+    margin-top: 30px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 4px wheat;
+    border-radius: 8px;
+}
+.successbtn{
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+.successbtn button{
+    width: 200px;
+    margin-left: 43%;
+   
+    color: white;
+    background-color: #02C18D;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+.successbtn button:hover{
+box-shadow: 0px 0px 10px orangered;
+}
+.successpage {
+    background-color: #4727FE;
+    height: 100vh;
+}

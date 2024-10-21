@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.footer{
+    margin-top:150px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Playfair";
+    background-color: gray;
+
+}
+
+.about h3{
+ margin: 10px;
+}
+.about p{
+    margin: 10px;
+}
+.help p{
+    margin: 10px;
+}
+.help h3{
+    margin: 10px;
+}
+.consumerpolicy h3{
+    margin: 10px;
+}
+.consumerpolicy p{
+  margin: 10px;
+}
+.company p{
+ margin: 10px;
+}
+.social p{
+margin: 10px;
+}

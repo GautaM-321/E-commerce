@@ -1,0 +1,124 @@
+.login {
+  width: 100%;
+  height: 100vh-80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.background-login {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+form {
+  width: 400px;
+  height: 450px;
+  border: 2px solid wheat;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+}
+
+form h2 {
+  color: white;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+form h2:hover {
+  color: orangered;
+  border-bottom: 5px solid orangered;
+}
+
+form input {
+  width: 75%;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0;
+  padding: 8px 12px;
+}
+
+form input:hover {
+  background-color: black;
+}
+
+form button {
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: 1px solid wheat;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: green;
+}
+.link {
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+}
+.link h4 {
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.link a {
+  color: orangered;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: blue;
+}
+.successmsg {
+  width: 250px;
+  margin: auto;
+  background-color: lightgreen;
+}
+
+.errormsg {
+  width: 250px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: lightcoral;
+}
+
+.loader{
+  width: 400px;
+  margin: auto;
+  font-size: 20px;
+  color: green;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.loader img{
+  width: 180px;
+  height: 180px;
+
+}
+.loader h5{
+  width: 200px;
+  margin: auto;
+}

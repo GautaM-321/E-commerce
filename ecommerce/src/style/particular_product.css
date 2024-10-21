@@ -1,0 +1,142 @@
+.detailsection {
+  display: flex;
+  /* width: 1000px; */
+  justify-content: space-evenly;
+  margin: 30px 0px 0px 0px;
+  /* box-shadow: 0 0 20px grey; */
+  overflow: scroll;
+  height: 450px;
+  border-radius: 8px;
+}
+.detailsection::-webkit-scrollbar {
+  display: none;
+}
+.detailheading p {
+  width: 1000px;
+  margin-left: 200px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: darkslategray;
+  /* border: 1px solid black; */
+}
+.leftsec {
+  overflow: scroll;
+}
+.leftsec::-webkit-scrollbar {
+  display: none;
+}
+.leftsec img {
+  width: 350px;
+  height: 390px;
+
+  border-radius: 8px;
+}
+
+.rightsec {
+  width: 400px;
+  height: 450px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+.rightsec::-webkit-scrollbar {
+  display: none;
+}
+.detail_detailing {
+  margin: 10px 0px 10px 10px;
+}
+
+.detailbrand h2 {
+  font-size: 30px;
+  font-weight: 100;
+  margin: 10px;
+  color: #424453;
+}
+
+.detail_description {
+  font-size: 40px;
+  width: 400px;
+  color: #424453;
+  margin: 5px;
+  font-weight: 800;
+  /* border-top: 1px solid gray; */
+  border-bottom: 1px solid gray;
+}
+.detail_description h4 {
+  font-weight: 300;
+}
+.detail_rating {
+  width: fit-content;
+  box-shadow: 0 0 20px grey;
+  border-radius: 8px;
+  color: #424453;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  font-size: 16px;
+}
+.detail_rating img {
+  height: 20px;
+}
+
+.detail_price {
+  border-top: 1px solid gray;
+  width: 400px;
+}
+.detail_price h4 {
+  width: 100px;
+  color: #424453;
+  height: 25px;
+  transform: skew(15deg, 0);
+  background-color: #ffea28;
+  margin-left: 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px grey;
+}
+.detail_price h4 {
+  font-size: 16px;
+}
+.detail_price h5 {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.detail_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.detail_buttons button {
+  width: 200px;
+  height: 35px;
+
+  border-radius: 8px;
+  color: darkgray;
+  color: black;
+  margin: 20px 0px 0px 8px;
+  background-color: #ffa41c;
+  font-weight: 400;
+}
+.detailtag {
+  height: 25px;
+  display: flex;
+  justify-content: left;
+
+}
+.detailtag img {
+  height: 25px;
+}
+.detailtag h5 {
+  /* align-items: center; */
+  font-weight: 500;
+  font-size: 16px;
+  /* text-align: center; */
+}
+#cartaddbtn {
+  background-color: #ffa41c;
+}
+
+#wishaddbtn {
+  background-color: #ffd814;
+}

@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.cartList {
+  width: 50%;
+  height: 85vh;
+  overflow-y: scroll;
+  margin: 10px;
+}
+.cartList::-webkit-scrollbar {
+  display: none;
+}
+.usercartpage {
+  margin-left: 100px;
+  width: fit-content;
+  margin: auto;
+  font-family: "Playfair";
+  color: black;
+}
+.emptycartlist {
+  text-align: center;
+  height: 450px;
+  margin-top: 50px;
+}
+.emptycartlist img {
+  height: 300px;
+}
+.emptycartlist button {
+  width: 200px;
+  height: 35px;
+  border-radius: 8px;
+  color: white;
+  margin: 20px 0px 0px 8px;
+  background-color: #007dbc;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.cartheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cartheading img {
+  width: 150px;
+  height: 150px;
+}
+.cartheading h1 {
+  font-family: "Playfair";
+}
+
+.productimagecart img {
+  width: 220px;
+  height: 250px;
+  position: relative;
+}
+.rating {
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+.rating img {
+  width: 30px;
+  height: 30px;
+}
+
+.cancelitem {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+
+.cancelitem img {
+  width: 30px;
+  height: 30px;
+}
+.item-card-cart {
+  width: 600px;
+  height: 250px;
+  position: relative;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+}
+.item-card-cart:hover {
+  box-shadow: 0px 0px 40px gray;
+}
+
+.itemquantity {
+  display: flex;
+}
+.itemquantity button {
+  font-size: 20px;
+  width: 30px;
+  background-color: gray;
+  color: wheat;
+}
+.itemquantity input {
+  width: 50px;
+  text-align: center;
+  border: 1px solid gray;
+}
+.itemcontentcart {
+  margin-left: 10px;
+}
+.itemcontentcart h2 {
+  font-size: 32px;
+}
+.itemquantity {
+  margin-top: 8px;
+}
+.itempricecart {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.itemcontentcart p {
+  width: 70px;
+  transform: skew(15deg, 0);
+  background-color: #ffea28;
+  font-weight: bold;
+}
+.itemcontentcart h4 {
+  font-size: 25px;
+}
+
+.item-card-cart .rating {
+  display: flex;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.itemcontentcart h4 {
+  font-family: "Playfair";
+  color: #454545;
+  margin-bottom: 8px;
+}
+.itemcontentcart h2 {
+  font-family: "Playfair";
+  margin-bottom: 5px;
+}
+
+.productimagecart .rating img {
+  width: 20px;
+  height: 20px;
+}
+
+.cartpage {
+  display: flex;
+}
+
+.orderpage {
+  width: 500px;
+  height: 300px;
+  margin: 30px 10px 10px 100px;
+  font-family: "Playfair";
+  background-color: #00425a;
+  border-radius: 8px;
+  color: white;
+}
+
+.productpricedetail {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.productpricedetail h4 {
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  font-family: "Playfair";
+}
+
+.orderheading {
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  border-bottom: 2px solid white;
+}
+
+.ordercontent {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.ordercontent h4 {
+  margin: 20px;
+}
+
+.ordertotalpricediv {
+  display: flex;
+  width: 500px;
+  margin: auto;
+
+  text-align: center;
+  justify-content: space-around;
+  border-top: 1px solid white;
+  margin-top: 20px;
+}
+.ordertotalpricediv h4 {
+  margin-top: 20px;
+}
+.placeorderbutton {
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+.placeorderbutton button {
+  width: 300px;
+  margin: auto;
+  color: white;
+  background-color: #02c18d;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.placeorderbutton button:hover {
+  box-shadow: 0px 0px 20px gray;
+}
+
+.imgcart img {
+  margin-top: 20px;
+  height: 200px;
+  width: 500px;
+}
+
